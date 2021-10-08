@@ -15,14 +15,14 @@ Final Result.
 <!-- Video Demo: https://www.youtube.com/watch?v=yxnieilj0pk<br> -->
 Screenshots:<br>
 <table style={border:"none"}><tr>
-<td><img src="assets/screnshoots/screenshot1.png" alt="Screenshot 1"/></td>
-<td><img src="assets/screnshoots/screenshot2.png" alt="Screenshot 2"/></td>
-<td><img src="assets/screnshoots/screenshot3.png" alt="Screenshot 3"/></td>
+<td><img src="assets/screnshoots/Screenshot1.png" alt="Screenshot 1"/></td>
+<td><img src="assets/screnshoots/Screenshot2.png" alt="Screenshot 2"/></td>
+<td><img src="assets/screnshoots/Screenshot3.png" alt="Screenshot 3"/></td>
 </tr>
 
 <tr>
-<td><img src="assets/screnshoots/screenshot4.png" alt="Screenshot 1"/></td>
-<td><img src="assets/screnshoots/screenshot5.png" alt="Screenshot 2"/></td>
+<td><img src="assets/screnshoots/Screenshot4.png" alt="Screenshot 1"/></td>
+<td><img src="assets/screnshoots/Screenshot5.png" alt="Screenshot 2"/></td>
 </tr>
 </table>
 
