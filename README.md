@@ -1,16 +1,31 @@
-# disenio1
+<center><h1><b>3-simple-desing</b></h1></center>
 
-A new Flutter project.
+This UI desing was created using Flutter and public assets.
+It was proposed in fernando herrera course and it was added routing and BottomNavBar
+
+
+Final Result.
+
+<!-- <ul>
+<li>State Management using Provider</li>
+<li>Dynamic Theming</li>
+<li>Navigation Using PageViews and BottomNavigationBar</li>
+</ul> -->
+
+<!-- Video Demo: https://www.youtube.com/watch?v=yxnieilj0pk<br> -->
+Screenshots:<br>
+<table style={border:"none"}><tr>
+<td><img src="assets/screnshoots/screenshoot1.png" alt="Screenshot 1"/></td>
+<td><img src="assets/screnshoots/screenshoot2.png" alt="Screenshot 2"/></td>
+<td><img src="assets/screnshoots/screenshoot3.png" alt="Screenshot 3"/></td>
+</tr>
+
+<tr>
+<td><img src="assets/screnshoots/screenshoot4.png" alt="Screenshot 1"/></td>
+<td><img src="assets/screnshoots/screenshoot5.png" alt="Screenshot 2"/></td>
+</tr>
+</table>
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Just git clone and update the proyect with flutter pub get

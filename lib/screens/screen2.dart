@@ -6,30 +6,53 @@ class Screen2 extends StatelessWidget {
     return Scaffold(
       body: PageView(
         scrollDirection: Axis.vertical,
-        children: [Page1(), Page1(), Page1()],
+        children: [
+          Page1(
+            imagen: "img1.png",
+            color: Colors.black,
+          ),
+          Page1(
+            imagen: "img2.png",
+            color: Colors.white,
+          ),
+          Page1(
+            imagen: "img3.png",
+            color: Colors.white,
+          ),
+        ],
       ),
     );
   }
 }
 
 class Page1 extends StatelessWidget {
+  final String? imagen;
+  final Color? color;
+
+  const Page1({Key? key, this.imagen, this.color}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Stack(
-      children: [Background(), MainContent()],
+      children: [
+        Background(
+          imagen: imagen,
+        ),
+        MainContent(color: color)
+      ],
     );
   }
 }
 
 class MainContent extends StatelessWidget {
-  const MainContent({
-    Key? key,
-  }) : super(key: key);
+  final Color? color;
+
+  const MainContent({Key? key, this.color}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    var textStyle = TextStyle(
-        fontSize: 50, color: Colors.white, fontWeight: FontWeight.bold);
+    var textStyle =
+        TextStyle(fontSize: 50, color: color, fontWeight: FontWeight.bold);
 
     return Center(
       child: SafeArea(
@@ -59,6 +82,10 @@ class MainContent extends StatelessWidget {
 }
 
 class Background extends StatelessWidget {
+  final String? imagen;
+
+  const Background({Key? key, this.imagen}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     final Size size = MediaQuery.of(context).size;
@@ -68,7 +95,7 @@ class Background extends StatelessWidget {
       decoration: BoxDecoration(
         image: DecorationImage(
           fit: BoxFit.cover,
-          image: AssetImage("assets/imagen.png"),
+          image: AssetImage("assets/$imagen"),
         ),
       ),
     );
